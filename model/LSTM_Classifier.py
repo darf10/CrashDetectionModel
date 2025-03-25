@@ -1,10 +1,6 @@
-import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import joblib
-import os
-from collections import deque
 
 
 class LSTMClassifier(nn.Module):
@@ -14,7 +10,6 @@ class LSTMClassifier(nn.Module):
     params:
         nn.Module - Base neural network from torch lib
     """
-
 
     def __init__(self, input_size, hidden_size=64, num_layers=2, dropout=0.2):
         """

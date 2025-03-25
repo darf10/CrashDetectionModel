@@ -1,2 +1,7 @@
 # CrashDeterctionModel
-An ML model that uses YOLOv11 and ViT for road accident detection
+An ML model that uses YOLO11m and LSTM for real time accident detection
+
+
+pip install scipy
+pip install ultralytics
+pip install torch joblib
