@@ -1,7 +1,7 @@
 import time
 import numpy as np
 from threading import Thread
-from ...model.Accident_Classifier import AccidentClassifier
+from ...model.Accident_Classifier import AccidentClassifier  # fix 3 levels above problem
 
 
 class AnalysisWorker(Thread):

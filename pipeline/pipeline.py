@@ -1,6 +1,6 @@
-from workers.capture import VideoCaptureWorker
-from workers.tracking import TrackingWorker
-from workers.analysis import AnalysisWorker
+from .workers.capture import VideoCaptureWorker
+from .workers.tracking import TrackingWorker
+from .workers.analysis import AnalysisWorker
 from queue import Queue
 from threading import Lock
 
