@@ -9,4 +9,3 @@ pip install scipy
 pip install ultralytics  
 pip install torch   
 pip install torch joblib    
-pip install matplotlib scikit-learn

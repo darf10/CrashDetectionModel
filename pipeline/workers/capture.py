@@ -30,7 +30,7 @@ class VideoCaptureWorker(Thread):
 
             elapsed = time.time() - start_time
             if elapsed < frame_time:
-                time.sleep(frame_time - elapsed)
+                time.sleep(frame_time - elapsed) # Need to change to supervisor implementation
 
         cap.release()
 

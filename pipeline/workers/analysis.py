@@ -28,7 +28,7 @@ class AnalysisWorker(Thread):
                 }
                 self.result_queue.put(result)
             else:
-                time.sleep(0.001)
+                time.sleep(0.001)  # Need to change to supervisor implementation
 
     def _detect_accidents(self, tracks):
         with self.motion_lock:
